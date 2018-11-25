@@ -1,0 +1,14 @@
+github 创建新库 name
+克隆一个本地库：git clone git@github.com:zzp11/name.git
+进入name目录：cd name
+此时自动关联本地master和远程master，默认origin
+本地创建分支： 
+               git checkout -b dev
+               git push origin dev
+克隆远程仓库的分支：
+               git checkout -b dev origin/dev
+               git pull origin dev
+    
+抓取(pull)失败时按提示链接本地dev和远程dev
+
+          
